@@ -23,7 +23,7 @@ int piocherMot(char *motPioche)
         dico = fopen("../ressource/dico1.txt", "r+");
     }
     else if (strcmp(ans, "difficile") == 0){
-        dico = fopen("../ressource/dic02.txt", "r+");
+        dico = fopen("../ressource/dico2.txt", "r+");
     }
 
     else {printf("Erreur\n");
